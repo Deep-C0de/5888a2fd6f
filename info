@@ -1,35 +1,89 @@
 #EXTM3U
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",AzTV
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",İctimai TV
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",İdman Azərbaycan
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",ARB
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",ARB 24
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC Sport
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",Space TV
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",Baku TV
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT 1
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Haber
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Spor
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Belgesel
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Çocuk
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",Kanal D
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",Show TV
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",ATV
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",NOW
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",TV8
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",Habertürk
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",A Haber
-#EXTINF:-1 tvg-country="TR" group-title="Turkey",CNN Türk
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Первый канал
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Россия 1
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Россия 24
-#EXTINF:-1 tvg-country="RU" group-title="Russia",НТВ
-#EXTINF:-1 tvg-country="RU" group-title="Russia",РЕН ТВ
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Пятый канал
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Звезда
-#EXTINF:-1 tvg-country="RU" group-title="Russia",Мир
-#EXTINF:-1 tvg-country="RU" group-title="Russia",ОТР
+
+#EXTINF:-1 tvg-id="AzTV.az@SD" group-title="Azerbaijan",AzTV
+https://str.yodacdn.net/azertv/index.m3u8
+#EXTINF:-1 tvg-id="IctimaiTV.az@SD" group-title="Azerbaijan",İctimai TV
+https://live.itv.az/itv.m3u8
+#EXTINF:-1 tvg-id="BakuTV.az@SD" group-title="Azerbaijan",Baku TV
+https://rtmp.baku.tv/hls/bakutv.m3u8
+#EXTINF:-1 tvg-id="AnewZTV.az@SD" group-title="Azerbaijan",AnewZ
+https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MedeniyyetTV.az@SD" group-title="Azerbaijan",Mədəniyyət TV
+https://str.yodacdn.net/medeniyyettele/index.m3u8
+#EXTINF:-1 tvg-id="Kanal35.az@SD" group-title="Azerbaijan",Kanal 35
+https://str2.yodacdn.net/kanal35/index.m3u8
+#EXTINF:-1 tvg-id="NaxcivanTV.az@SD" group-title="Azerbaijan",Naxçıvan TV
+https://str2.yodacdn.net/ntv/video.m3u8
+#EXTINF:-1 tvg-id="ELTV.az@SD" group-title="Azerbaijan",EL TV
+https://live.eltv.az/live/eltv.m3u8
+#EXTINF:-1 tvg-id="CBCSport.az@HD" group-title="Azerbaijan",CBC Sport
+https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-country="TR" group-title="Turkey",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-country="TR" group-title="Turkey",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-country="TR" group-title="Turkey",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTBelgesel.tr" tvg-name="TRT Belgesel" tvg-country="TR" group-title="Turkey",TRT Belgesel
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-name="TRT Çocuk" tvg-country="TR" group-title="Turkey",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Müzik" tvg-country="TR" group-title="Turkey",TRT Müzik
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTAvaz.tr" tvg-name="TRT Avaz" tvg-country="TR" group-title="Turkey",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TRT Türk" tvg-country="TR" group-title="Turkey",TRT Türk
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-country="TR" group-title="Turkey",TRT World
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-country="TR" group-title="Turkey",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="A2TV.tr" tvg-name="A2 TV" tvg-country="TR" group-title="Turkey",A2 TV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" tvg-name="Kanal D" tvg-country="TR" group-title="Turkey",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8
+
+#EXTINF:-1 tvg-id="ShowTV.tr" tvg-name="Show TV" tvg-country="TR" group-title="Turkey",Show TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8
+#EXTINF:-1 tvg-id="NOWTV.tr" tvg-name="NOW" tvg-country="TR" group-title="Turkey",NOW
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-id="TV8.tr" tvg-name="TV8" tvg-country="TR" group-title="Turkey",TV8
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 tvg-id="360.tr" tvg-name="360 TV" tvg-country="TR" group-title="Turkey",360 TV
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 tvg-id="BeyazTV.tr" tvg-name="Beyaz TV" tvg-country="TR" group-title="Turkey",Beyaz TV
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:-1 tvg-id="NTV.tr" tvg-name="NTV" tvg-country="TR" group-title="Turkey News",NTV
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 tvg-id="A Haber.tr" tvg-name="A Haber" tvg-country="TR" group-title="Turkey News",A Haber
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+
+#EXTINF:-1 tvg-id="TV24.tr" tvg-name="TV24" tvg-country="TR" group-title="Turkey News",TV24
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-country="TR" group-title="Turkey News",TVNET
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-id="Ekoturk.tr" tvg-name="Ekotürk" tvg-country="TR" group-title="Turkey News",Ekotürk
+https://cdn.ekoturk.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="TRTSpor.tr" tvg-name="TRT Spor" tvg-country="TR" group-title="Turkey Sport",TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTSporYildiz.tr" tvg-name="TRT Spor Yıldız" tvg-country="TR" group-title="Turkey Sport",TRT Spor Yıldız
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A Spor" tvg-country="TR" group-title="Turkey Sport",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-id="TV4.tr" tvg-name="TV4" tvg-country="TR" group-title="Turkey",TV4
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 tvg-id="DreamTurk.tr" tvg-name="Dream Türk" tvg-country="TR" group-title="Turkey Music",Dream Türk
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-id="KralPop.tr" tvg-name="Kral Pop" tvg-country="TR" group-title="Turkey Music",Kral Pop
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-id="DiyanetTV.tr" tvg-name="Diyanet TV" tvg-country="TR" group-title="Turkey",Diyanet TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="DostTV.tr" tvg-name="Dost TV" tvg-country="TR" group-title="Turkey",Dost TV
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 tvg-id="EuroD.tr" tvg-name="Euro D" tvg-country="TR" group-title="Turkey",Euro D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+
 #EXTINF:-1 tvg-country="RU" group-title="Russia",ТВ Центр
 #EXTINF:-1 tvg-id="TV1000RussianKinoGlobal.ru@SD",TV1000 Russian Kino Global
 http://213.91.179.28:8000/play/a0bx
