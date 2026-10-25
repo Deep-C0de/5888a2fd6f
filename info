@@ -18,7 +18,7 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=ATVAz
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AzadTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="atv.az" group-title="Azerbaijan",ATV
 https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
-#EXTINF:-1 tvg-name="AzadTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="atv.az" group-title="Azerbaijan",ATV kanal s
+#EXTINF:-1 tvg-name="Stv" tvg-id="atv.az" group-title="Azerbaijan",Kanal S
 https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 #EXTINF:-1 tvg-name="KonulTv" tvg-id="konultv" group-title="Azerbaijan",Konul tv
 https://cdn-konultvazerbaijan.yayin.com.tr/konultvazerbaijan/konultvazerbaijan/tracks-v1a1/mono.m3u8
