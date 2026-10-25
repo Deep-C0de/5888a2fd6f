@@ -6,18 +6,24 @@ https://str.yodacdn.net/azertv/index.m3u8
 https://live.itv.az/itv.m3u8
 #EXTINF:-1 tvg-id="BakuTV.az@SD" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/hls/bakutv.m3u8
-#EXTINF:-1 tvg-id="AnewZTV.az@SD" group-title="Azerbaijan",AnewZ
-https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MedeniyyetTV.az@SD" group-title="Azerbaijan",Mədəniyyət TV
-https://str.yodacdn.net/medeniyyettele/index.m3u8
-#EXTINF:-1 tvg-id="Kanal35.az@SD" group-title="Azerbaijan",Kanal 35
-https://str2.yodacdn.net/kanal35/index.m3u8
-#EXTINF:-1 tvg-id="NaxcivanTV.az@SD" group-title="Azerbaijan",Naxçıvan TV
-https://str2.yodacdn.net/ntv/video.m3u8
-#EXTINF:-1 tvg-id="ELTV.az@SD" group-title="Azerbaijan",EL TV
-https://live.eltv.az/live/eltv.m3u8
-#EXTINF:-1 tvg-id="CBCSport.az@HD" group-title="Azerbaijan",CBC Sport
+#EXTINF:-1 tvg-name="AzTV" tvg-country="AZ" group-title="Azerbaijan",AzTV
+https://str.yodacdn.net/azertv/index.m3u8
+#EXTINF:-1 tvg-name="AzTV Alternativ" tvg-country="AZ" group-title="Azerbaijan",AzTV Alternativ
+https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="AzStarTV" tvg-country="AZ" group-title="Azerbaijan",AzStarTV
+https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
+#EXTINF:-1 tvg-name="Baku TV" tvg-country="AZ" group-title="Azerbaijan",Baku TV
+https://rtmp.baku.tv/hls/bakutv.m3u8
+#EXTINF:-1 tvg-name="Baku TV Alternativ" tvg-country="AZ" group-title="Azerbaijan",Baku TV Alternativ
+https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/baku-tv.m3u8
+#EXTINF:-1 tvg-name="İctimai TV" tvg-country="AZ" group-title="Azerbaijan",İctimai TV
+https://live.itv.az/itv.m3u8
+#EXTINF:-1 tvg-name="CBC Sport" tvg-country="AZ" group-title="Azerbaijan",CBC idman
 https://mn-nl.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
+#EXTINF:-1 tvg-name="CBC TV" tvg-country="AZ" group-title="Azerbaijan",CBC TV
+https://stream.cbctv.az:5443/LiveApp/streams/cbctv.m3u8
+#EXTINF:-1 tvg-name="Mədəniyyət TV" tvg-country="AZ" group-title="Azerbaijan",Mədəniyyət TV
+https://str.yodacdn.net/medeniyyettele/index.m3u8v
 
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-country="TR" group-title="Turkey",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -83,6 +89,10 @@ https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95
 https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 tvg-id="EuroD.tr" tvg-name="Euro D" tvg-country="TR" group-title="Turkey",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 tvg-name="SHOW TV" tvg-id="ShowTV.tr" tvg-logo="https://i.ibb.co/Rv0rWhZ/show.png" tvg-country="TR" group-title="Turkey",SHOW TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
+#EXTINF:-1 tvg-name="SHOW TV HD" tvg-id="ShowTV.tr" tvg-country="TR" group-title="Turkey",SHOW TV HD
+https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 
 #EXTINF:-1 tvg-country="RU" group-title="Russia",ТВ Центр
 #EXTINF:-1 tvg-id="TV1000RussianKinoGlobal.ru@SD",TV1000 Russian Kino Global
