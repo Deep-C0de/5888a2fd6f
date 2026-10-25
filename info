@@ -1,23 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="AzStarTV" tvg-logo="https://i.imgur.com/di3XX5L.png" tvg-id="AzStarTV.ca" tvg-country="AZ" group-title="Azerbaijan",AzStarTV
-http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="AZTV" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="AZTV.az" tvg-country="AZ" group-title="Azerbaijan",AZTV Ⓢ
-https://str.yodacdn.net/azertv/index.m3u8
-#EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/500px-Baku_TV_%282018%29.png" tvg-id="BakuTV.az" tvg-country="AZ" group-title="Azerbaijan",Baku TV
-https://rtmp.baku.tv/hls/bakutv.m3u8
-#EXTINF:-1 tvg-name="Kanal S" tvg-logo="https://i.imgur.com/W0JBoSQ.png" tvg-id="KanalS.az" tvg-country="AZ" group-title="Azerbaijan",Kanal S
-https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
-
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",AzTV
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",İctimai TV
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",İdman Azərbaycan
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",ARB
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",ARB 24
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC adi
-#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC idman
+#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC
+#EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",CBC Sport
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",Space TV
 #EXTINF:-1 tvg-country="AZ" group-title="Azerbaijan",Baku TV
-
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT 1
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Haber
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",TRT Spor
@@ -31,7 +21,6 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",Habertürk
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",A Haber
 #EXTINF:-1 tvg-country="TR" group-title="Turkey",CNN Türk
-
 #EXTINF:-1 tvg-country="RU" group-title="Russia",Первый канал
 #EXTINF:-1 tvg-country="RU" group-title="Russia",Россия 1
 #EXTINF:-1 tvg-country="RU" group-title="Russia",Россия 24
@@ -42,17 +31,8 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 #EXTINF:-1 tvg-country="RU" group-title="Russia",Мир
 #EXTINF:-1 tvg-country="RU" group-title="Russia",ОТР
 #EXTINF:-1 tvg-country="RU" group-title="Russia",ТВ Центр
-
-Diqqət: Bu, kanal adları üçün şablondur; hər #EXTINF sətrindən sonra işlək kanalın birbaşa URL-i olmalıdır.
-
-Daha çox işlək yayım tapmaq üçün Azərbaycan playlist-i , Türkiyə playlist-i  və Rusiya playlist-i  siyahılarını yoxlaya bilərsən.
-
-İstəsən, növbəti olaraq idman kanallarını və ya xəbər kanallarını eyni formatda ayrıca toplaya bilərəm.
-
-
 #EXTINF:-1 tvg-id="TV1000RussianKinoGlobal.ru@SD",TV1000 Russian Kino Global
 http://213.91.179.28:8000/play/a0bx
-
 #EXTINF:-1 tvg-id="RussianExtremeUltra.ru@SD",Russian Extreme Ultra (1440p)
 http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1 tvg-id="RTGTV.ru@HD",RTG TV HD (1080p)
