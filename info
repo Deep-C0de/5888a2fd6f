@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="AzTV.az@SD" group-title="Azerbaijan",AzTV
-https://str.yodacdn.net/azertv/index.m3u8
+https://stream8.cinerama.uz/1455/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="IctimaiTV.az@SD" group-title="Azerbaijan",İctimai TV
 https://live.itv.az/itv.m3u8
 #EXTINF:-1 tvg-id="BakuTV.az@SD" group-title="Azerbaijan",Baku TV
@@ -16,8 +16,8 @@ http://109.205.166.68/server124/arb/index.m3u8
 https://www.tvkaista.net/stream-forwarder/get.php?x=ATVAz
 #EXTINF:-1 tvg-name="AzStarTV" tvg-logo="https://i.imgur.com/di3XX5L.png" tvg-id="AzStarTV.ca" group-title="Azerbaijan",AzStarTV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="AZTV Ⓢ" tvg-logo="https://i.imgur.com/snBMMeH.png" tvg-id="AZTV.az" group-title="Azerbaijan",AZTV Ⓢ
-https://www.tvkaista.net/stream-forwarder/get.php?x=AZTV
+#EXTINF:-1 tvg-name="AzadTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="atv.az" group-title="Azerbaijan",ATV
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="BakuTV.az" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 #EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="CBC.az" group-title="Azerbaijan",CBC
