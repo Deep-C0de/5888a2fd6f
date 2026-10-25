@@ -18,6 +18,15 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=ATVAz
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="AzadTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="atv.az" group-title="Azerbaijan",ATV
 https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+
+#EXTINF:-1 tvg-name="AzadTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="atv.az" group-title="Azerbaijan",ATV kanal s
+https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
+
+#EXTINF:-1 tvg-name="KonulTv" tvg-logo="https://atv.az/assets/images/logo_white.png" tvg-id="konultv" group-title="Azerbaijan",Konul tv
+https://cdn-konultvazerbaijan.yayin.com.tr/konultvazerbaijan/konultvazerbaijan/tracks-v1a1/mono.m3u8
+
+https://cdn4.yayin.com.tr/maxtv/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-name="Baku TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Baku_TV_%282018%29.png/640px-Baku_TV_%282018%29.png" tvg-id="BakuTV.az" group-title="Azerbaijan",Baku TV
 https://rtmp.baku.tv/live/bakutv_720p.m3u8
 #EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="CBC.az" group-title="Azerbaijan",CBC
@@ -49,18 +58,20 @@ https://www.tvkaista.net/stream-forwarder/get.php?x=AZ_VIP
 #EXTINF:-1 tvg-name="MTV Azerbaijan Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/MTV_Az%C9%99rbaycan_%282022%29.png/622px-MTV_Az%C9%99rbaycan_%282022%29.png" tvg-id="MTVAzerbaijan.az" group-title="Azerbaijan",MTV Azerbaijan Ⓢ
 https://www.tvkaista.net/stream-forwarder/get.php?x=MTVAzerbaijan
 
-#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-country="TR" group-title="Turkey",TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-logo="https://cdn-s.pr.trt.com.tr/trt1/svg/logo-trt1.svg" tvg-name="TRT 1" tvg-country="TR" group-title="Turkey",TRT 1
+https://tv-trt1.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-country="TR" group-title="Turkey",ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-country="TR" group-title="Turkey",TRT 2
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-name="TRT Haber" tvg-country="TR" group-title="Turkey",TRT Haber
-https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTHaber.tr" tvg-logo="https://trthaberstatic.cdn.wp.trt.com.tr/static/images/logo.svg" tvg-name="TRT Haber" tvg-country="TR" group-title="Turkey",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
+
+
 #EXTINF:-1 tvg-id="TRTBelgesel.tr@SD",TRT Belgesel (720p)
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr@SD",TRT Cocuk (1440p)
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn-i.pr.trt.com.tr/trtcocuk/trtcocuk-logo.svg" tvg-id="TRTCocuk.tr@SD",TRT Cocuk (1440p)
+https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="TV8.tr" tvg-logo="https://i.imgur.com/DKNwiDm.png" group-title="Undefined",TV 8 (1080p) [Not 24/7]
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-id="SportsTV.tr" tvg-logo="https://i.imgur.com/tGTVcVe.jpg" group-title="Sports",Sports TV (720p) [Geo-blocked]
@@ -123,6 +134,11 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="A Haber.tr" tvg-name="A Haber" tvg-country="TR" group-title="Turkey News",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+
+#EXTINF:-1 tvg-id="BBC.en" tvg-name="BBC" tvg-country="EN" group-title="BBC News",BBC News
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="BBC.en" tvg-name="MrBean" tvg-country="EN" group-title="MrBean Tv",MrBean Tv
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/cb56351a657065909bc83b78d9f162d6a65928d80b6c852a6ab454876da91e588eac8d9ab30ea778149719b1670e66411f21c118db7a1fc7c76adf046727486b9898b37bd9981208a2ae56687fe525564eff0b13ce25413689ef1b59dc6aed7f4817b80b371b63dcbb58b07e52c38917dd792ddef9df646d7b0f0d9e3f21df84667f25f27777a906b38b6d02c06d17b6db18988a3e84bae62afd631da23c26b7a681c88a41a8b68b53ab788a6678b5d573eb6359b7e924035d9022af4356080c7774f5aa92b16c3d8d52794a92d9e6b07ff61fc2886ad42e67fb48a01ed56bca47a307b2f90eb8f5ede0141562e4d64d3b76f5b3eedab27514b865f0ada68f232dc9a6452816894bd1302e3e9fe58445d1955bc6c444efd1451436d5893fd8f7d5aee0aa84469024b0a8d2912f47486c1c42cb1d8e9363ce319f1f8ccb002a484254a7f8069766b88db2fbf9e03a8a08f78f09d14da32baff2fb491ad3/33/1280x720_3329040/index.m3u8
 
 #EXTINF:-1 tvg-id="TV24.tr" tvg-name="TV24" tvg-country="TR" group-title="Turkey News",TV24
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
